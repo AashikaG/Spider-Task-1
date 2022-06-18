@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body{
+    font-family: 'Fredoka One', cursive;
+    width: 100%; 
+    overflow-x: hidden;  
+}
+
+h1{
+    text-align: center;
+}
+
+#get-letter{
+    height: 50px;
+    width: 200px;
+    font-size: larger;
+    border: 2px solid rgb(248, 203, 239);
+    font-family: 'Fredoka One', cursive;
+}
+input[type=text]:focus {
+    outline: none;
+    border: 2px solid rgb(239, 133, 218);
+  }
+
+.input-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    padding: 10px;
+    background-color: rgb(248, 203, 239);
+    margin-left: 10px;
+    border: 1px solid rgb(246, 172, 231);
+    box-shadow: 0 0 20px rgb(239, 133, 218);
+    font-family: 'Fredoka One', cursive;
+}
+
+.letter{
+  border: none;
+  border-bottom: 2px solid rgb(243, 170, 170);
+  width: 2%;
+  text-align: center;
+  margin-left: 5px;
+}
+
+#container{
+    text-align: center;
+    padding-top: 30px;
+}
+
+img{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 650px) {
+    img{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    margin-top: 20px;
+    }
+  }
+  @media screen and (min-width: 1500px) {
+    img{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin-top: 20px;
+    }
+  }
